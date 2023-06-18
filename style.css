@@ -7,7 +7,7 @@
     /* background-color: aqua; */
     width: 80%;
     height: 5vh;
-    padding: 10px;
+    padding: 16px;
     margin: auto;
 }
 nav{
@@ -93,7 +93,7 @@ nav li a:hover{
 }
 .intro{
     float: left;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     position: absolute;
     top: 30%;
     left: 15%;
@@ -104,14 +104,14 @@ nav li a:hover{
     float: right;
 }
 .report-body{
-    background-color:#ffff;
+    background-color:#f6efef;
     /* height: 80px; */
     padding: 18px;
     display: flex;
     justify-content: space-evenly;
     /* width: 300px; */
     margin: auto;
-    border: 1px solid rgb(108, 107, 107);
+    /* border: 1px solid rgb(108, 107, 107); */
     border-radius: 50px;
     box-shadow: #7f8489;
 
@@ -144,8 +144,8 @@ nav li a:hover{
 }
 .intro button{
     margin-top: 20px;
-    padding: 15px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     cursor: pointer;
@@ -175,7 +175,7 @@ nav li a:hover{
     color: #ff7a57;
 }
 .pic-body{
-    right: 10%;
+    right: 5%;
     position: absolute;
     top: 10%;
     /* width: 100%; */
@@ -215,3 +215,57 @@ nav li{
     z-index: 99; */
     /* background-color: #f5613c; */
 /* } */ 
+
+#nav{
+    height: 10vh;
+}
+
+.body-container{
+    margin-bottom: 7%;
+}
+.about-container img{
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.about-p{
+    float: right;
+    width: 50%;
+    text-align: justify;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.about-container h3.title{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', sans-serif;
+    color: #ff7a57;
+    /* font-weight: lighter; */
+
+}
+.about-p h3{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-p p{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* letter-spacing: ; */
+    color: #535353;
+}
+.about-p button{
+    margin-top: 5%;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 25px;
+    background-color: #f5613c;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: none;
+    
+}
