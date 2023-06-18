@@ -513,3 +513,433 @@ nav li{
     width: 1005;
     height: 25vh;
 }
+
+#nav .sm-device{
+    float: right;
+    /* margin-right: 10%; */
+    /* margin-top: -3%; */
+    font-size: 30px;
+    display: none;
+  
+}
+        /* Responsive  */
+
+/* Styles for mobile devices (up to 767px) */
+@media only screen and (max-width: 425px) {
+    nav{
+        display: none;
+    }
+
+    #nav .sm-device{
+        display: inline-block;
+    }
+    .pic-body{
+        display: none;
+    }
+    .report-body{
+        left: 2%;
+        right: 2%;
+        bottom: -3%;
+    }
+    .body-container {
+        margin-bottom: 10%;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-section{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .about-container img{
+        margin: auto;
+        width: 50%;
+    }
+    .about-p{
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .intro p{
+        font-size: 25px;
+    }
+    .intro h5{
+        font-size: 30px;
+    }
+    .intro{
+        top: 30%;
+        left: 5%;
+    }
+    .intro button{
+        font-size: 20px;
+
+
+    }
+    .button{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .report-body{
+        padding: 5px;
+    }
+    .report-body h3{
+        font-size: 20px;
+    }
+    .report-body h4{
+        font-size: 15px;
+    }
+
+    .report-body div{
+        padding: 0px 6px;
+    }
+    .about-p h3 {
+        font-size: 20px;
+    }
+    .about-p p{
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+    .about-container{
+        margin-bottom: 5%;
+    }
+    .service-title span p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+    .skills-title span p {
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio-title span p{
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio-box {
+        padding: 0px;
+        width: 95%;
+    }
+    .portfolio-box div{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+        background-color: white;
+    }
+    .portfolio-box div img{
+        width: 80%;
+    }
+
+
+
+ 
+  }
+
+ @media (min-width:425px) and (max-width: 640px) {
+    nav{
+        display: none;
+    }
+
+    #nav .sm-device{
+        display: inline-block;
+    }
+    .pic-body{
+        display: none;
+    }
+    .report-body{
+        left: 2%;
+        right: 2%;
+    }
+    .body-container {
+        margin-bottom: 10%;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-section{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .about-container img{
+        margin: auto;
+        width: 45%;
+    }
+    .about-p{
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .intro p{
+        font-size: 25px;
+    }
+    .intro h5{
+        font-size: 30px;
+    }
+    .intro{
+        top: 30%;
+        left: 5%;
+    }
+    .intro button{
+        font-size: 20px;
+
+
+    }
+    .button{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .report-body{
+        padding: 5px;
+    }
+    .report-body h3{
+        font-size: 20px;
+    }
+    .report-body h4{
+        font-size: 15px;
+    }
+
+    .report-body div{
+        padding: 0px 6px;
+    }
+    .portfolio-box{
+        width: 90%;
+    }
+    .service-title span p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+    .skills-title span p {
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio-title span p{
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+   
+ 
+} 
+@media (min-width:640px) and (max-width:768px) {
+
+    nav{
+        display: none;
+    }
+
+    #nav .sm-device{
+        display: inline-block;
+    }
+    /* .pic-body{
+        display: none;
+    } */
+    .report-body{
+        left: 2%;
+        right: 2%;
+    }
+    .body-container {
+        margin-bottom: 10%;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-section{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .about-container img{
+        margin: auto;
+        width: 45%;
+    }
+    .about-p{
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .intro p{
+        font-size: 25px;
+    }
+    .intro h5{
+        font-size: 30px;
+    }
+    .intro{
+        top: 30%;
+        left: 5%;
+    }
+    .intro button{
+        font-size: 20px;
+
+
+    }
+    .button{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .report-body{
+        padding: 5px;
+    }
+    .report-body h3{
+        font-size: 20px;
+    }
+    .report-body h4{
+        font-size: 15px;
+    }
+
+    .report-body div{
+        padding: 0px 6px;
+    }
+    .portfolio-box{
+        width: 90%;
+    }
+    .service-title span p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+    .skills-title span p {
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio-title span p{
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-body img {
+        width: 100%;
+        height: 50vh;
+    }
+    .pic-body{
+        right: 0;
+        top: 20%;
+    }
+    .report-body{
+        bottom: -2%;
+    }
+    
+}
+  
+  /* Styles for tablets (768px to 1023px) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    nav{
+        display: none;
+    }
+
+    #nav .sm-device{
+        display: inline-block;
+    }
+    /* .pic-body{
+        display: none;
+    } */
+    .report-body{
+        left: 20%;
+        right: 20%;
+    }
+    .body-container {
+        margin-bottom: 10%;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-section{
+        height: auto;
+        margin-bottom: 4%;
+    }
+    .about-container img{
+        margin: auto;
+        width: 45%;
+    }
+    .about-p{
+        margin: auto;
+        width: 80%;
+        margin-top: 20px;
+    }
+    .intro p{
+        font-size: 25px;
+    }
+    .intro h5{
+        font-size: 30px;
+    }
+    .intro{
+        top: 30%;
+        left: 5%;
+    }
+    .intro button{
+        font-size: 20px;
+
+
+    }
+    .button{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .report-body{
+        padding: 5px;
+    }
+    .report-body h3{
+        font-size: 20px;
+    }
+    .report-body h4{
+        font-size: 15px;
+    }
+
+    .report-body div{
+        padding: 0px 6px;
+    }
+    .portfolio-box{
+        width: 90%;
+    }
+    .service-title span p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 15px;
+    }
+    .skills-title span p {
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio-title span p{
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .intro-body img {
+        width: 100%;
+        height: 50vh;
+    }
+    .pic-body{
+        right: 0;
+        top: 20%;
+    }
+    .report-body{
+        bottom: -2%;
+    }
+
+  }
+  
+  /* Styles for laptops (1024px to 1439px) */
+  @media only screen and (min-width: 1024px) and (max-width: 1439px) {
+
+  }
+  
+  /* Styles for PCs (1440px and above) */
+  @media only screen and (min-width: 1440px) {
+ 
+  }
+  
+  /* Styles for TVs (1920px and above) */
+  @media only screen and (min-width: 1920px) {
+    
+  }
+  
