@@ -269,3 +269,99 @@ nav li{
     border: none;
     
 }
+.about-section{
+    /* border: 1px solid; */
+    height: 70vh;
+    margin-bottom: 1%;
+    /* background-color: #535353; */
+}
+.service-title {
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid; */
+    margin-bottom: 25px;
+}
+.service-title h3{
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 30px;
+    /* margin-bottom: 5%; */
+    font-family: 'Gill Sans', sans-serif;
+    color: #ff7a57;
+}
+
+.service-title p{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: #989ca0;
+}
+.service-container{
+    background-color: white;
+    height: 100vh;
+}
+.service-title span p{
+    /* text-align: justify; */
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+.service-box{
+    /* border: 1px solid; */
+    padding: 10px;
+}
+.service-box div{
+    border: 1px solid rgb(123, 123, 123);
+    margin-left: 2%;
+    width: 20%;
+    height: 25vh;
+    /* padding: 15px; */
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    /* box-shadow: 25px red; */
+    transition: 0.9s;
+}
+.service-box i{
+    font-size: 55px;
+    text-align: center;
+    /* margin: auto; */
+    position: absolute;
+    /* margin-left: 40%; */
+    top: 20%;
+    left: 40%;
+    right: 40%;
+    color: #f5613c;
+    transition: 0.9s;
+}
+.service-box h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    text-transform: capitalize;
+    left: 20%;
+    top: 62%;
+    right: 20%;
+    font-weight: 200;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.service-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service-box div:hover{
+    background-color: #f5613c;
+    color: white;
+}
+.service-box div:hover i{
+    /* background-color: #f5613c; */
+    color: white;
+}
