@@ -11,14 +11,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
     <div class="head-nav-container" id="nav">
 
         <div class="nav-container">
-            <i class="fa-solid fa-user-secret"></i>            
+            <div class="logo">
+                <h4>gau<span>tam</span></h4>
+
+            </div>
+             
             <nav>
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
@@ -27,15 +44,33 @@
                 <li><a href="#portfolio">portfolio</a></li>
                 <li><a href="#testominal">testominal</a></li>
                 <li><a href="#blog">blog</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#contact">contact</a></li>
 
                 <button>copmonents</button>
                 
             </nav>
 
-            <div class="sm-device">
-                <i class="fa-solid fa-bars"></i>
+
+                
+            <i class="fa-solid fa-bars" onclick="display()"></i>
+
+            <div class="sm-nav" id="sm-nav">
+
+                <i class="fa-sharp fa-solid fa-square-xmark" onclick="hide()"></i>
+                <ul>
+                    <li onclick="none()"><a href="#home">home</a></li>
+                    <li onclick="none()"><a href="#about">about</a></li>
+                    <li onclick="none()"><a href="#service">service</a></li>
+                    <li onclick="none()"><a href="#skills">skills</a></li>
+                    <li onclick="none()"><a href="#portfolio">portfolio</a></li>
+                    <li onclick="none()"><a href="#testominal">testominal</a></li>
+                    <li onclick="none()"><a href="#blog">blog</a></li>
+                    <li onclick="none()"><a href="#contact">contact</a></li>
+                    
+                </ul>
+
             </div>
+         
             
         </div>
 
@@ -50,9 +85,9 @@
             <div class="intro-body">
                 <div class="intro">
                     <p>Hello, I'm</p>
-                    <h5>Hello
+                    <h5>gautam
                         <br>
-                        9999</h5>
+                        Magar</h5>
                     <p> <span>Frontend-web Developer</span></p>
 
                     <div class="button">
@@ -114,7 +149,7 @@
 
             <div class="about-p">
     
-                <h3>Hello 9999</h3>
+                <h3>Gautam  Magar</h3>
                 <p> <span>Frontend-Web Developer</span></p>
                 <br>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur quisquam corporis sit eaque perferendis dolorem minima aspernatur iusto sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, vitae.</p>
@@ -569,6 +604,6 @@
     </footer>
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>
